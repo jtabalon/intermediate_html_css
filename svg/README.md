@@ -12,3 +12,17 @@ Most often used for:
 - Patterned Backgrounds
 - Applying effects to other elements via SVG filters
 
+## Vector Graphics vs Raster Graphics
+
+### Vector Graphics
+- defined by math
+- no pixel grid
+- formulas for different shapes and lines... because of these formulas provides scalability with no effect on quality or size of file
+
+### Raster Graphics
+- detail limited to size of pixel grid
+- the larger the grid the bigger the file size
+
+## Scalable Vector Graphics (Continued)
+
+
