@@ -25,4 +25,18 @@ Most often used for:
 
 ## Scalable Vector Graphics (Continued)
 
+### SVG Benefits
+SVG's are defined using Extensible Markup Language (XML).
+- SVG's are human readable:
 
+``` html
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <rect x=0 y=0 width=100 height=50 />
+    <circle class="svg-circle" cx="50" cy="50" r="10"/>
+</svg>
+```
+
+XML is designed to be interoperable with HTML, so you cna put code in the HTML file and display images out of the box.
+
+### SVG Drawbacks
+SVG's are inefficient at complex images because they need to be written in XML.
