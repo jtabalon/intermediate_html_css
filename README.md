@@ -1,1 +1,2 @@
-# intermediate_html_css
+# Intermediate HTML/CSS (Odin Project)
+
