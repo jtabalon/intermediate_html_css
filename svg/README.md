@@ -40,3 +40,25 @@ XML is designed to be interoperable with HTML, so you cna put code in the HTML f
 
 ### SVG Drawbacks
 SVG's are inefficient at complex images because they need to be written in XML.
+
+## Anatomy of an SVG
+- refer to the course in order to go through the various sections defined in the HTML section for displaying an SVG
+    - `xmlns`
+    - `viewBox`
+    - `class` and `id` 
+    - `<circle>`,`<rect>`,`<path>`, `<text>` are all defined by SVG namespace
+    - `fill` and `stroke`
+
+## Embedding SVG's
+
+### Linked
+- use an HTML image element (`<img>`) or link in CSS
+- contents of SVG are not accesible from the webpage
+
+### Inline
+- paste contents directly in webpage's code, instead of linking to an image
+- **allows you to unlock full potential**
+- Drawbacks:
+    - code harder to read
+    - page less cacheable
+    - might delay other HTML from loading
